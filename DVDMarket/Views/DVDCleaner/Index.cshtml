@@ -1,0 +1,177 @@
+﻿@model IEnumerable<DVDMarket.Models.DVDModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using DVDMarket.Data;
+@inject ApplicationDbContext context
+
+@{
+    var today = DateTime.Today;
+    var noIndexYear = 0;
+    var noIndexMonth = 0;
+    var members = context.MemberModel;
+    var loans = context.LoanModel;
+  
+}
+<h2>DVD Manager</h2>
+
+<div class="row" style="padding: 0 0 20px 0;">
+    <div class="col-md-4">
+        <h3>- DVD older than 365 Days and currently not on Loan</h3>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                No
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Producer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Studio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cast)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Released)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            if (today.Subtract(item.Released).TotalDays > 365 && item.Master==false)
+            {
+                noIndexYear++;
+                <tr id="year_@noIndexYear">
+                    <td>
+                        @noIndexYear
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Actor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producer)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Studio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cast)
+                    </td>
+                    <td>
+                        @item.Released.ToShortDateString()
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<div class="row" style="padding: 0 0 50px 0; border-bottom: 2px dashed gray;">
+    <h3 style="text-align: right;">
+        <button class="btn btn-danger" style="width: 100%;" onclick="deleteAll365Days(@noIndexYear)">Delete All</button>
+    </h3>
+</div>
+
+<br />
+<h3>
+Users that have not rented in the past 31 days
+</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                No
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+          
+            <th>
+                Last time the User Loaned 
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in members)
+        {
+            
+             noIndexMonth++;
+        <tr id="month_@noIndexMonth" onclick="setMemberIndex(@item.MemberStockId, @noIndexMonth)">
+            <td>
+                @noIndexMonth
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberEmail)
+            </td>
+            @if (loans.Where(s => s.MemberEmail == item.MemberEmail).ToArray().Count() > 0)
+            {
+                var date = loans.Where(s => s.MemberEmail == item.MemberEmail).OrderByDescending(s => s.BorrowDate).First();
+                var title = loans.Where(s => s.MemberEmail == item.MemberEmail).OrderByDescending(s => s.BorrowDate).First().Dvd.Title;
+                DateTime days = loans.Where(s => s.MemberEmail == item.MemberEmail).OrderByDescending(s => s.BorrowDate).First().BorrowDate;
+                var CopyNo = loans.Where(s => s.MemberEmail == item.MemberEmail).OrderByDescending(s => s.BorrowDate).First().Dvd.Copies;
+
+
+                if (days > DateTime.Today.AddDays(-31))
+                {
+                    <td>
+                        <p>Loaned in the last 31 days @days</p>
+                    </td>
+                }
+            }
+            <td>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#questionModal">Remove</button>
+            </td>
+        </tr>
+                            
+                        }
+
+        </tbody>
+</table>
+
+<!-- Question Modal -->
+<div class="modal fade" id="questionModal" role="dialog" data-bind="id">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title" style="color: #0094ff">Question</h2>
+            </div>
+            <div class="modal-body">
+                <h4 style="color: #ff0000">You want to remove this member. Really?</h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="removeMember()">Remove</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/DVDMarket" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Freelance_WWW\\DVD-Shop@ASP\.NET\\03_Project\\DVDMarket_Core2\.1\\DVDMarket\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="DVDMarket.Data.ApplicationDbContext" description="" value="E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\Data\ApplicationDbContext.cs" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^E:\\Freelance_WWW\\DVD-Shop@ASP\.NET\\03_Project\\DVDMarket_Core2\.1\\DVDMarket\\obj\\Release\\netcoreapp2\.1\\PubTmp\\EFSQLScripts\\DVDMarket\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

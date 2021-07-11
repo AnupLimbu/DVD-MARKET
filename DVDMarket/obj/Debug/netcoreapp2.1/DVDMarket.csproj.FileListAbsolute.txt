@@ -1,0 +1,241 @@
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csprojAssemblyReference.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CoreCompileInputs.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfoInputs.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.dll
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.deps.json
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.json
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.dev.json
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.dll
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.dll
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.input.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.output.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorCoreGenerate.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Delete.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Create.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Details.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\LookLoans\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CopyComplete
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.deps.json
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.json
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.dev.json
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.dll
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.dll
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CoreCompileInputs.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfoInputs.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.input.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.output.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorCoreGenerate.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Delete.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Create.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Details.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\LookLoans\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Delete.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cache
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.dll
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.pdb
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CopyComplete
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Create.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Details.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDCleaner\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDCleaner\Delete.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Create.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Details.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Create.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Details.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Edit.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Index.g.cshtml.cs
+E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csprojAssemblyReference.cache
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\appsettings.json
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.deps.json
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.json
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.dev.json
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.dll
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.pdb
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.dll
+F:\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfoInputs.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfo.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CoreCompileInputs.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.input.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.output.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorCoreGenerate.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Create.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Details.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Edit.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Create.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Details.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Edit.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDCleaner\Delete.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDCleaner\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Delete.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Edit.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Create.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Details.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Edit.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\LookLoans\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Delete.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Edit.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Create.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Details.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Edit.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Index.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cs
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.dll
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.pdb
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.genruntimeconfig.cache
+F:\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CopyComplete
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.deps.json
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.json
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.runtimeconfig.dev.json
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.dll
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.pdb
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.dll
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\bin\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CoreCompileInputs.cache
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cache
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorAssemblyInfo.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfoInputs.cache
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.AssemblyInfo.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.input.cache
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.TagHelpers.output.cache
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorCoreGenerate.cache
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Create.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Details.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Edit.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CastModels\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Create.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Details.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Edit.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\CategoryModels\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDCleaner\Delete.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDCleaner\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Delete.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Edit.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDLoan\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Create.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Details.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Edit.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\DVDShop\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\LookLoans\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Delete.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Edit.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\MemberManager\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Create.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Details.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Edit.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\ProducerModels\Index.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cache
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.RazorTargetAssemblyInfo.cs
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.Views.pdb
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.dll
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.pdb
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csproj.CopyComplete
+E:\Islington\Application develpoment\testAD\DVDMarket\DVDMarket\obj\Debug\netcoreapp2.1\DVDMarket.csprojAssemblyReference.cache

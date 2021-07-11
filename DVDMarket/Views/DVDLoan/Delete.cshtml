@@ -1,0 +1,130 @@
+﻿@model DVDMarket.Models.DVDModel
+
+@{
+    ViewData["Title"] = "Loan Reject";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using DVDMarket.Data;
+@inject ApplicationDbContext context
+
+@{
+
+    var loanData = context.LoanModel.Where(s => s.DvdId == Model.Id && s.BorrowType == true)
+                                    .FirstOrDefault();
+
+    }
+
+<h2>Shelve DVD</h2>
+<hr />
+<div class="row" style="padding-left: 20px; text-align: left;">
+    <form asp-action="Delete">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Actor" />
+        <input type="hidden" asp-for="Producer" />
+        <input type="hidden" asp-for="Cast" />
+        <input type="hidden" asp-for="Url" />
+        <input type="hidden" asp-for="Studio" />
+        <input type="hidden" asp-for="Released" />
+        <input type="hidden" asp-for="Copies" />
+        <div class="row">
+            <div class="col-md-5">
+                <h3>
+                    Loaned to:  [ @loanData.MemberEmail ]
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Title) :  [
+                    @Html.DisplayFor(model => model.Title) ]
+                </h3>
+            </div>
+            <div class="col-md-5">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Actor) :  [
+                    @Html.DisplayFor(model => model.Actor) ]
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Producer) :  [
+                    @Html.DisplayFor(model => model.Producer) ]
+                </h3>
+            </div>
+            <div class="col-md-5">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Cast) :  [
+                    @Html.DisplayFor(model => model.Cast) ]
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Url) :  [
+                    @Html.DisplayFor(model => model.Url) ]
+                </h3>
+            </div>
+            <div class="col-md-5">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Released) :  [
+                    @Html.DisplayFor(model => model.Released) ]
+                </h3>
+            </div>
+        </div>
+        <div class="row" style="padding: 0 0 40px 0;">
+            <div class="col-md-5">
+                <h3>
+                    BorrowDate :  [ @loanData.BorrowDate ]
+                </h3>
+            </div>
+            <div class="col-md-5">
+                <h3>
+                    ExceptDate :  [ @loanData.ExceptDate ]
+                </h3>
+            </div>
+        </div>
+        <div class="row" style="padding: 10px 0 0 0;border-top: 2px dashed gray;">
+            <div class="col-md-4">
+                <h3>
+                    ReceiveDate : <input type="date" name="ReceiveDate" style="color: #666666;" />
+                </h3>
+            </div>
+            @{
+                @if (DateTime.Today.CompareTo(loanData.ExceptDate) > 0)
+                {
+                    <div class="col-md-5" style="background: darkred; color: white; margin: 20px 0 -10px 10px;">
+                        <h3 style="margin: 5px 0 0 0;">
+                            The user has exceeded the Expect date!
+                        </h3>
+                        <h4>
+                            You must shelve to @loanData.ExceptDate.ToShortDateString().
+                           
+                        </h4>
+                    </div>
+                }
+            }
+        </div>
+        <div class="form-group">
+            <div class="row" style="padding: 40px 0 20px 0;">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="submit" value="Shelve" class="btn btn-warning col-md-8" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a asp-action="Index" class="btn btn-warning col-md-8">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+

@@ -1,0 +1,109 @@
+﻿@model IEnumerable<DVDMarket.Models.MemberModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using DVDMarket.Data;
+@inject ApplicationDbContext context
+
+@{ 
+    var loans = context.LoanModel;
+    var categories = context.CategoryModel;
+}
+
+<h2 style="padding: 0 0 20px 0;">Member Manager</h2>
+
+<div class="row" style="padding: 0 0 20px 0; margin: -10px 0 0 0;">
+    <h3>
+        <a asp-area="" asp-controller="CategoryModels" asp-action="Index" class="btn btn-info col-md-12">Goto Category Manager</a>
+    </h3>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                No
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["SearchUserName"]">UserName</a>
+            </th>
+            <th>
+                UserEmail
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Permission)
+            </th>
+            <th>
+                Category
+            </th>
+            <th>
+                Loan Count
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var noIndex = 0;
+        }
+        @foreach (var item in Model)
+        {
+            noIndex++;
+            if (item.MemberEmail == "admin@admin.com")
+            {
+                
+            }
+            else { 
+            <tr>
+                <td>@noIndex</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MemberName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MemberEmail)
+                </td>
+                <td id="member_@item.MemberStockId">
+                    @Html.DisplayFor(modelItem => item.Permission)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td>
+                    @if (!"".Equals(item.Permission))
+                    {
+                        var count = loans.Where(s => s.MemberEmail == item.MemberEmail).Count();
+                        var category = categories.Where(s => s.Name == item.Category).SingleOrDefault();
+                        if (category.Limit < count)
+                        {
+                            <p style="color: darkred;">@count, Too many DVDs!</p>
+                        }
+                        else
+                        {
+                            <p>@count</p>
+                        }
+                    }
+                </td>
+                <td>
+                    @if (!item.Permission.Equals(""))
+                    {
+                        <button class="btn btn-success" disabled>Accept</button>
+                        <a asp-action="Delete" asp-route-id="@item.MemberStockId" class="btn btn-danger">Reject</a>
+                    }
+                    else
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.MemberStockId" class="btn btn-success">Accept</a>
+                        <button class="btn btn-danger" disabled>Reject</button>
+                    }
+                    @if (User.Identity.Name == "admin@admin.com")
+                    {
+                        <a asp-area="Identity" asp-page="/Account/ResetPassword" class="btn btn-info">Change PWD</a>
+                    }
+                </td>
+            </tr>
+            }
+        }
+    </tbody>
+</table>

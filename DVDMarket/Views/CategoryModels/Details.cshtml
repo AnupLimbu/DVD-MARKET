@@ -1,0 +1,51 @@
+﻿@model DVDMarket.Models.CategoryModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details Category</h2>
+
+<div>
+    <hr />
+    <div style="padding: 0 0 0 20px;">
+        <div class="row">
+            <h3>
+                @Html.DisplayNameFor(model => model.Name) :  [
+                @Html.DisplayFor(model => model.Name) ]
+            </h3>
+        </div>
+        <div class="row">
+            <h3>
+                @Html.DisplayNameFor(model => model.Description) : [
+                @Html.DisplayFor(model => model.Description) ]
+            </h3>
+        </div>
+        <div class="row">
+            <h3>
+                @Html.DisplayNameFor(model => model.Limit) : [
+                @Html.DisplayFor(model => model.Limit) ]
+            </h3>
+        </div>
+        <div class="row">
+            <h3>
+                @Html.DisplayNameFor(model => model.Duration) : [
+                @Html.DisplayFor(model => model.Duration) ]
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="row" style="padding: 30px 0 30px 0;">
+    <div class="col-md-4">
+        <div class="form-group">
+            <a asp-action="Edit" asp-route-id="@Model.CategoryId" class="btn btn-success col-md-8">Edit</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div>
+            <a asp-action="Index" class="btn btn-warning col-md-8">Back to List</a>
+        </div>
+    </div>
+</div>

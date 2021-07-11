@@ -1,0 +1,44 @@
+﻿@model DVDMarket.Models.MemberModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Member Reject</h2>
+
+<div class="row" style="padding-left: 20px; text-align: left;">
+    <form asp-action="Delete">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="MemberStockId" />
+        <div class="row">
+            <div class="col-md-8">
+                <h3>
+                    @Html.DisplayNameFor(model => model.MemberName) :  [
+                    @Html.DisplayFor(model => model.MemberName) ]
+                </h3>
+            </div>
+            <div class="col-md-8">
+                <h3>
+                    @Html.DisplayNameFor(model => model.MemberEmail) :  [
+                    @Html.DisplayFor(model => model.MemberEmail) ]
+                </h3>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row" style="padding: 40px 0 20px 0;">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="submit" value="Reject" class="btn btn-danger col-md-8" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a asp-action="Index" class="btn btn-warning col-md-8">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Release\netcoreapp2.1\PubTmp\Out\" />
+  <dbfullsql path="E:\Freelance_WWW\DVD-Shop@ASP.NET\03_Project\DVDMarket_Core2.1\DVDMarket\obj\Release\netcoreapp2.1\PubTmp\EFSQLScripts\DVDMarket.Data.ApplicationDbContext.sql" />
+</sitemanifest>

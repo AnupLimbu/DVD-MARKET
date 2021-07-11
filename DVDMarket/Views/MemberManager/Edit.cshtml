@@ -1,0 +1,79 @@
+﻿@model DVDMarket.Models.MemberModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using DVDMarket.Data;
+@inject ApplicationDbContext context
+
+<h2>Accept Member</h2>
+
+<hr />
+<div class="row" style="padding-left: 20px; text-align: left;">
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="MemberStockId" />
+        <div class="row">
+            <div class="col-md-8">
+                <h3>
+                    @Html.DisplayNameFor(model => model.MemberName) :  [
+                    @Html.DisplayFor(model => model.MemberName) ]
+                </h3>
+            </div>
+            <div class="col-md-8">
+                <h3>
+                    @Html.DisplayNameFor(model => model.MemberEmail) :  [
+                    @Html.DisplayFor(model => model.MemberEmail) ]
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <h3>MemberType : </h3>
+            </div>
+            <div class="col-md-3" style="font-size: 1.8em; padding: 16px 0 0 0;">
+                <select name="MemberType" class="form-control" style="width: 100%; height: 100%; font-size: 0.8em;">
+                    <option>Assistant</option>
+                    <option>Customer</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <h3>MemCategory : </h3>
+            </div>
+            <div class="col-md-3" style="font-size: 1.8em; padding: 16px 0 0 0;">
+                <select name="MemberCategory" class="form-control" style="width: 100%; height: 100%; font-size: 0.8em;">
+                    @{
+                        var categorys = context.CategoryModel;
+
+                        foreach (var category in categorys)
+                        {
+                            <option>@category.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row" style="padding: 40px 0 20px 0;">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="submit" value="Accept" class="btn btn-success col-md-8" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a asp-action="Index" class="btn btn-warning col-md-8">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,125 @@
+﻿@model DVDMarket.Models.DVDModel
+
+@{
+    ViewData["Title"] = "Edit DVD Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using DVDMarket.Data;
+@inject ApplicationDbContext context;
+
+<h2>Edit DVD Product</h2>
+
+@{     
+    var producers = context.ProducerModel.ToArray();
+    var casts = context.CastModel.ToArray();
+    var users = context.Users.ToArray();
+}
+
+<h4>DVD Database</h4>
+<hr />
+<div class="row" style="font-size: 1.5em;">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Master" />
+        
+            @*<input type="hidden" asp-for="Copies" />*@
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Title" class="control-label"></label>
+                        <input asp-for="Title" class="form-control" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Actor" class="control-label"></label>                       
+                         <input asp-for="Actor" class="form-control" />
+                        <span asp-validation-for="Actor" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Producer" class="control-label"></label>
+                        <select asp-for="Producer" class="form-control">
+                            @{
+                                foreach (var producer in producers)
+                                {
+                                    <option>@producer.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="Producer" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Cast" class="control-label"></label>
+                        <select asp-for="Cast" class="form-control">
+                            @{
+                                foreach (var cast in casts)
+                                {
+                                    <option>@cast.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="Cast" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Url" class="control-label"></label>
+                        <input asp-for="Url" class="form-control" />
+                        <span asp-validation-for="Url" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Studio" class="control-label"></label>
+                        <input asp-for="Studio" class="form-control" />
+                        <span asp-validation-for="Studio" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Copies" class="control-label"></label>
+                        <input asp-for="Copies" class="form-control" />
+                        <span asp-validation-for="Copies" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6" style="margin: 30px 0 0 0;">
+                    <div class="form-group">
+                        <input asp-for="NonpermAge" style="width: 24px; height: 24px; margin: 10px 4px 0 0;" />
+                        <label class="control-label" style="color: darkred;">Nonpermission Under Of 18 Ages</label>
+                        <span asp-validation-for="NonpermAge" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding: 10px 0 10px 0;">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-success col-md-8" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a asp-action="Index" class="btn btn-warning col-md-8">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

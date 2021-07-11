@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Freelance_WWW\\DVD-Shop@ASP.NET\\03_Project\\DVDMarket_Core2.1\\DVDMarket\\DVDMarket.csproj": {}
+  },
+  "projects": {
+    "E:\\Freelance_WWW\\DVD-Shop@ASP.NET\\03_Project\\DVDMarket_Core2.1\\DVDMarket\\DVDMarket.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Freelance_WWW\\DVD-Shop@ASP.NET\\03_Project\\DVDMarket_Core2.1\\DVDMarket\\DVDMarket.csproj",
+        "projectName": "DVDMarket",
+        "projectPath": "E:\\Freelance_WWW\\DVD-Shop@ASP.NET\\03_Project\\DVDMarket_Core2.1\\DVDMarket\\DVDMarket.csproj",
+        "packagesPath": "C:\\Users\\Choe ChungHyok\\.nuget\\packages\\",
+        "outputPath": "E:\\Freelance_WWW\\DVD-Shop@ASP.NET\\03_Project\\DVDMarket_Core2.1\\DVDMarket\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Choe ChungHyok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "F:\\Tools\\nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.11, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.11, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

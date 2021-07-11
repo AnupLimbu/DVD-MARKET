@@ -1,0 +1,171 @@
+﻿@model DVDMarket.Models.DVDModel
+
+@{
+    ViewData["Title"] = "Loan Permission";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var loans = context.LoanModel;
+    var categories = context.CategoryModel;
+    var Model = context.MemberModel;
+}
+
+@using DVDMarket.Data;
+@inject ApplicationDbContext context
+
+<h2>Loan Permission</h2>
+
+<hr />
+<div class="row" style="padding-left: 20px; text-align: left;">
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Actor" />
+        <input type="hidden" asp-for="Producer" />
+        <input type="hidden" asp-for="Cast" />
+        <input type="hidden" asp-for="Url" />
+        <input type="hidden" asp-for="Studio" />
+        <input type="hidden" asp-for="Released" />
+        <input type="hidden" asp-for="Copies" />
+        <div class="row">
+            <div class="col-md-4">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Title) :  [
+                    @Html.DisplayFor(model => model.Title) ]
+                </h3>
+            </div>
+            <div class="col-md-4">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Actor) :  [
+                    @Html.DisplayFor(model => model.Actor) ]
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Producer) :  [
+                    @Html.DisplayFor(model => model.Producer) ]
+                </h3>
+            </div>
+            <div class="col-md-4">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Cast) :  [
+                    @Html.DisplayFor(model => model.Cast) ]
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Url) :  [
+                    @Html.DisplayFor(model => model.Url) ]
+                </h3>
+            </div>
+            <div class="col-md-4">
+                <h3>
+                    @Html.DisplayNameFor(model => model.Released) :  [
+                    @Html.DisplayFor(model => model.Released) ]
+                </h3>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>
+                        @Html.DisplayName("Age Restricted") :  [
+                        @Html.DisplayFor(model => model.NonpermAge) ]
+                    </h3>
+                </div>
+            </div>
+        
+        <div class="row" style="padding: 0 0 30px 0;">
+            <div class="col-md-8">
+                @if ("True".Equals(@ViewData["DVDPermission"]))
+                {
+                    <h3 style="background: darkred; color: white; padding: 10px 0 10px 10px;">
+                        Nonpermission Under Of 18 Ages!
+                    </h3>
+                }
+            </div>
+        </div>
+        <div class="row" style="padding: 10px 0 0 0;border-top: 2px dashed gray;">
+            <div class="col-md-4">
+                <h3>
+                    To Member :
+                    <select name="MemberEmail" style="width: 100%;">
+                        @{
+                            var members = context.MemberModel;
+                            var userAges = context.UserAgeModel;
+
+                            if ("True".Equals(@ViewData["DVDPermission"]))
+                            {
+                                foreach (var member in members)
+                                {
+                                    var ageModel = userAges.Where(u => u.UserEmail == member.MemberEmail).SingleOrDefault();
+                                    if ("admin@admin.com".Equals(member.MemberEmail))
+                                    {
+                                        <option>@member.MemberEmail</option>
+                                    }
+                                    else if (ageModel != null && ageModel.UserAge > 18)
+                                    {
+                                        <option>@member.MemberEmail</option>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                foreach (var item in Model)
+                                {
+                                @if (!"".Equals(item.Permission))
+                                {
+                                    var count = loans.Where(s => s.MemberEmail == item.MemberEmail).Count();
+                                    var category = categories.Where(s => s.Name == item.Category).SingleOrDefault();
+                                    if (category.Limit < count)
+                                    {
+                                        <option disabled>@item.MemberEmail ,has exceeded the limit</option>
+                                    }
+                                    else
+                                    {
+                                        <option>@item.MemberEmail</option>
+
+                                    }
+                                }  
+                                }
+                            } 
+                            }
+                            }
+                        </select>
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>
+                    BorrowDate : <input type="date" name="BorrowDate" style="color: #666666;" />
+                </h3>
+            </div>
+            <div class="col-md-4">
+                <h3>
+                    ExpectDate : <input type="date" name="ExceptDate" style="color: #666666;" />
+                </h3>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row" style="padding: 40px 0 20px 0;">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="submit" value="Permission" class="btn btn-success col-md-8" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a asp-action="Index" class="btn btn-warning col-md-8">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
